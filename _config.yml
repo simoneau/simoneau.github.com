@@ -1,5 +1,5 @@
 # Site settings
-title: Matthew J. Simoneau
+title: Matthew J. Simoneau's Weblog
 email: simoneau@gmail.com
 description: > 
   Matthew Simoneau is a software developer in Boston, MA.
@@ -10,3 +10,4 @@ github_username:  simoneau
 
 # Build settings
 markdown: kramdown
+
