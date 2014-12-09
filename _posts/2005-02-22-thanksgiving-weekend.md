@@ -1,0 +1,17 @@
+---
+layout: post
+title: Thanksgiving Weekend 2004
+date: 2005-02-22 23:19:41.000000000 -05:00
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '24918195'
+  _publicize_pending: '1'
+  _wp_old_slug: thanksgiving-weekend
+  original_post_id: '124'
+author: 
+---
+<a href="http://www.flickr.com/photos/matthewsim/sets/72157601842518152/" title="DCP_6548 by Matthew Simoneau, on Flickr"><img src="http://farm2.staticflickr.com/1201/1316749128_6f26374130.jpg" width="335" height="500" alt="DCP_6548" /></a>
