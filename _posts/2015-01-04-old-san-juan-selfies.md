@@ -13,7 +13,7 @@ published: true
 <a href="https://www.flickr.com/photos/matthewsim/15575705984" title="Old San Juan Selfie (2/3) by Matthew Simoneau, on Flickr"><img src="https://farm9.staticflickr.com/8581/15575705984_c73fcc39c4_m.jpg" width="180" height="240" alt="Old San Juan Selfie (2/3)"></a>
 </div>
 
-<div style="position:relative; margin-left:400px; margin-top:20; width:180px;">
+<div style="position:relative; margin-left:400px; margin-top:20px; width:180px;">
 <a href="https://www.flickr.com/photos/matthewsim/15578288773" title="Old San Juan Selfie (3/3) by Matthew Simoneau, on Flickr"><img src="https://farm8.staticflickr.com/7577/15578288773_de86cbb36a_m.jpg" width="180" height="240" alt="Old San Juan Selfie (3/3)"></a>
 </div>
 
