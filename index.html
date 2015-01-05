@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+
+<h2>Here</h2>
+<ul>
+<li><a href="/weblog/">Matthew J. Simoneau's Weblog</a></li>
+</ul>
+
+<h2>Elsewhere</h2>
+<ul>
+  <li><a href="https://www.facebook.com/simoneau">Facebook</a></li>
+  <li><a href="https://twitter.com/matthewsim">Twitter</a></li>
+</ul>
+
+<!-- This loops through the paginated posts -->
+{% for post in site.posts limit:10 %}
+  <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="post-meta">{{ post.date | date: "%b %-d, %Y"}}</p>
+  <div class="post-content">
+    {{ post.content }}
+  </div>
+{% endfor %}
+
+<div id="page-navigation" style="text-align: center"> 
+  {% for post in site.posts limit:1 offset:10 %}
+    <a href="{{post.url}}" title="Previous Post: {{post.title}}">&laquo; Previous</a>
+  {% endfor %}
+</div>
+
+</div>
+
+
