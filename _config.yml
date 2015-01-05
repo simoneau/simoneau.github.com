@@ -8,6 +8,8 @@ url: "http://www.matthewsim.com" # the base hostname & protocol for your site
 permalink: /weblog/:title/
 
 twitter_username: matthewsim
+facebook_username:  simoneau
+flickr_username:  matthewsim
 github_username:  simoneau
 
 # Build settings
