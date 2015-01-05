@@ -192,3 +192,23 @@ pre {
 .icon {
     color: $grey-color;
 }
+
+div#page-navigation {
+    float: right;
+}
+
+div#page-navigation a:hover {
+    text-decoration: none;
+}
+
+div#page-navigation a:hover .icon {
+    color: white;
+    background-color: $grey-color;
+}
+
+div#page-navigation span {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+

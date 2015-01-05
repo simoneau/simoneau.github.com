@@ -13,11 +13,18 @@ layout: default
   </div>
 {% endfor %}
 
-<div id="page-navigation" style="text-align: center"> 
-  {% for post in site.posts limit:1 offset:10 %}
-    <a href="{{post.url}}" title="Previous Post: {{post.title}}">&laquo; Previous</a>
-  {% endfor %}
+<!-- This displays the "Previous" button -->
+{% for page in site.posts limit:1 offset:10 %}
+<div id="page-navigation"> 
+
+  <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+    <span class="icon fa fa-arrow-left fa-lg"
+      {% if page.previous == null %} style="visibility:hidden"  {% endif %}
+    ></span>
+  </a>
+
 </div>
+{% endfor %}
 
 </div>
 

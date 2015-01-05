@@ -1,9 +1,19 @@
-<div id="page-navigation" style="text-align: center"> 
-  {% if page.previous.url %} 
-  <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; Previous</a> | 
-  {% endif %}  
-  <a href="/weblog/" title="Index">Index</a> 
-  {% if page.next.url %} 
-  | <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">Next &raquo; </a>
-  {% endif %}
+<div id="page-navigation"> 
+
+  <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+    <span class="icon fa fa-arrow-left fa-lg"
+      {% if page.previous == null %} style="visibility:hidden"  {% endif %}
+    ></span>
+</a>
+
+  <a href="/weblog/" title="Index">
+    <span class="icon fa fa-arrow-up fa-lg"></span>
+  </a> 
+
+  <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">
+    <span class="icon fa fa-arrow-right fa-lg"
+      {% if page.next == null %} style="visibility:hidden"  {% endif %}
+    ></span>
+  </a>
+
 </div>
