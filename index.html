@@ -15,7 +15,7 @@ layout: default
 
 <!-- This displays the "Previous" button -->
 {% for page in site.posts limit:1 offset:10 %}
-<div id="page-navigation"> 
+<div id="page-navigation">
 
   <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
     <span class="icon fa fa-arrow-left fa-lg"
@@ -25,11 +25,9 @@ layout: default
 
   <a href="/weblog/" title="Index">
     <span class="icon fa fa-arrow-up fa-lg"></span>
-  </a> 
+  </a>
 
 </div>
 {% endfor %}
 
 </div>
-
-

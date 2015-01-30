@@ -14,6 +14,28 @@ layout: default
     {{ content }}
   </article>
 
+  <div id="comments">
+
+{% for comment in site.comments %}
+  {% capture comment_page_id %}/weblog/{{ comment.slug }}{% endcapture %}
+  {% if comment_page_id == page.id %}
+
+<div>
+  <p><b>
+    {% if comment.author_url == '' %}
+    {{ comment.author }}
+    {% else %}
+    <a href="{{ comment.author_url }}">{{ comment.author }}</a>
+    {% endif %}
+    on {{ comment.date }}</b></p>
+  {{ comment.content }}
+</div>
+
+  {% endif %}
+{% endfor %}
+
+  </div>
+
   {% include nav.html %}
 
 </div>

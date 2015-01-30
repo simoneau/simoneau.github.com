@@ -1,16 +1,19 @@
 # Site settings
 title: Matthew J. Simoneau
 email: simoneau@gmail.com
-description: > 
+description: >
   Matthew Simoneau is a software developer in Boston, MA.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.matthewsim.com" # the base hostname & protocol for your site
 permalink: /weblog/:title/
 
 twitter_username: matthewsim
-facebook_username:  simoneau
-flickr_username:  matthewsim
-github_username:  simoneau
+facebook_username: simoneau
+flickr_username: matthewsim
+github_username: simoneau
+
+collections:
+- comments
 
 # Build settings
 markdown: kramdown
