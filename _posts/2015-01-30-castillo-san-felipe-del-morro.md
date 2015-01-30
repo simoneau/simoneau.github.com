@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Castillo San Felipe del Morro
+facebook_fbid: 10153475987579908
+flickr_id: 16211963488
 published: true
 ---
 
