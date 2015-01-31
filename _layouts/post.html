@@ -7,34 +7,47 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+    <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}</p>
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
 
+  <h2>Comments</h2>
+
   <div id="comments">
 
 {% for comment in site.comments %}
+
   {% capture comment_page_id %}/weblog/{{ comment.slug }}{% endcapture %}
   {% if comment_page_id == page.id %}
 
-<div>
-  <p><b>
-    {% if comment.author_url == '' %}
+    <div>
+
+      <h3>
+  {% if comment.author_url == '' %}
     {{ comment.author }}
-    {% else %}
+  {% else %}
     <a href="{{ comment.author_url }}">{{ comment.author }}</a>
-    {% endif %}
-    on {{ comment.date }}</b></p>
-  {{ comment.content }}
-</div>
+  {% endif %}
+  -
+  {{ comment.date | date: "%Y-%m-%d" }}
+
+      </h3>
+
+
+      {{ comment.content }}
+
+    </div>
 
   {% endif %}
+
 {% endfor %}
 
   </div>
+
+  <p class="post-meta"><a href="https://github.com/simoneau/simoneau.github.com/blob/master/{{ page.path }}">source</p>
 
   {% include nav.html %}
 
