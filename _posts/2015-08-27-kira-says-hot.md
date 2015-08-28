@@ -12,4 +12,4 @@ I made my first animated reaction GIF:
 
 Feel free to start using it to react, in moving picture form, to things on the Internet you think are hot.
 
-Source: Olivia Newton-John in [Xanadu (1980)](http://amzn.to/1Jplcpt)
+Source: Olivia Newton-John in [Xanadu](http://amzn.to/1Jplcpt) (1980)
