@@ -36,8 +36,10 @@ Developed the product from idea to 1.0 as a core member of a small team.
 - Contributed to all aspects of project, including market analysis, use case development, feature prioritization, API and UI design, implementation, testing, and collecting beta feedback.
 - Implemented the Java AWT-based user interface.
 - Contributed to the MATLAB API implementation.
-- MATLAB Central Developer (2001-2011)
-- Helped design and implement the MATLAB user community site on mathworks.com.
+
+### MATLAB Central Developer (2001-2011)
+Helped design and implement [the MATLAB user community site](https://www.mathworks.com/matlabcentral/).
+
 - Contributed heavily to the design of the site and the initial two apps, File Exchange and Newsreader, and later to the Link Exchange and MATLAB Answers.
 - Evangelized the site to users and served as the administrator of the File Exchange.
 - Implemented the Blogs, using Wordpress, and the Community Wiki, using MediaWiki.
