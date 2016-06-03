@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume - Matthew J. Simoneau
+title: Experience
 permalink: /resume/
 published: true
 ---
