@@ -40,7 +40,7 @@ Helped design and implement [the MATLAB user community site](https://www.mathwor
 - Authored a cross-application tagging service, written in Ruby on Rails.
 
 #### Curve Fitting Toolbox Developer (1998-2001)
-Developed the [Curve Fitting Toolbox][(http://www.mathworks.com/products/curvefitting/) from idea to 1.0 as a core member of a small team.
+Developed the [Curve Fitting Toolbox](http://www.mathworks.com/products/curvefitting/) from idea to 1.0 as a core member of a small team.
 
 - Contributed to all aspects of project, including market analysis, use case development, feature prioritization, API and UI design, implementation, testing, and collecting beta feedback.
 - Implemented the Java AWT-based user interface.
