@@ -65,6 +65,7 @@ Lead developer for the [MATLAB Contest](http://www.mathworks.com/matlabcentral/c
 - 2007: Presented  the first internal talk about Amazon’s EC2, now an important part of the [MATLAB Online](http://www.mathworks.com/products/matlab-online/) infrastructure.
 - 2007: Created the official [MATLAB Facebook](https://www.facebook.com/MATLAB) page. Served as administrator until 2009, when its ownership transferred to Marketing.
 - 2004: Began role as [liaison](https://en.wikipedia.org/wiki/User:Simoneau) to the Wikipedia community and developed internal policies toward employee contributions.
+- 2001: Implemented and evangelized the use of an internal Wiki, first based on a simple Perl code base and later converted to use MediaWiki. Transferred maintenance of the app to the intranet team several years later. About half of all employees still make edits each month, even though SharePoint is now the recommended solution.
 - 1999: Created a nightly report of employees ranked by tenure. Your spot on this list has become known across the company as your Simoneau Number.
 
 ### University of Massachusetts Amherst (1992-1997)
