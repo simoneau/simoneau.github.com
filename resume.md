@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume - Matthew J. Simoneau
+title: Experience
 permalink: /resume/
 published: true
 ---
@@ -30,19 +30,21 @@ Designed and implemented APIs to access the Internet from MATLAB.
 - Served on the Language Design Team.
 - Worked with Quality Engineering to implement new testing services.
 
-#### Curve Fitting Toolbox Developer (1998-2001)
-Developed the product from idea to 1.0 as a core member of a small team.
+#### MATLAB Central Developer (2001-2011)
+Helped design and implement [the MATLAB user community site](https://www.mathworks.com/matlabcentral/).
 
-- Contributed to all aspects of project, including market analysis, use case development, feature prioritization, API and UI design, implementation, testing, and collecting beta feedback.
-- Implemented the Java AWT-based user interface.
-- Contributed to the MATLAB API implementation.
-- MATLAB Central Developer (2001-2011)
-- Helped design and implement the MATLAB user community site on mathworks.com.
 - Contributed heavily to the design of the site and the initial two apps, File Exchange and Newsreader, and later to the Link Exchange and MATLAB Answers.
 - Evangelized the site to users and served as the administrator of the File Exchange.
 - Implemented the Blogs, using Wordpress, and the Community Wiki, using MediaWiki.
 - Authored a web service to provided static analysis of File Exchange submissions, written JSP and MATLAB.
 - Authored a cross-application tagging service, written in Ruby on Rails.
+
+#### Curve Fitting Toolbox Developer (1998-2001)
+Developed the [Curve Fitting Toolbox](http://www.mathworks.com/products/curvefitting/) from idea to 1.0 as a core member of a small team.
+
+- Contributed to all aspects of project, including market analysis, use case development, feature prioritization, API and UI design, implementation, testing, and collecting beta feedback.
+- Implemented the Java AWT-based user interface.
+- Contributed to the MATLAB API implementation.
 
 #### MATLAB Contest Developer (1999-2009)
 Lead developer for the [MATLAB Contest](http://www.mathworks.com/matlabcentral/contest/) through most of its life.
@@ -52,8 +54,10 @@ Lead developer for the [MATLAB Contest](http://www.mathworks.com/matlabcentral/c
 - Contributed to the design for many of the puzzles, including problem statement, sample code, and test data.
 - Administered many contests, from announcing the dates to declaring the winner.
 - Provided some [analysis](http://www.mathworks.com/matlabcentral/contest/contests/19/statistics.html) of the entries and [other commentary](http://blogs.mathworks.com/contest/2002/11/08/a-contest-story/).
-- External Developer Liaison and Internal Technical Lead (1997-2001)
-- Served as the interface between MathWorks and external developers of Mapping Toolbox and Neural Network Toolbox.
+
+#### External Developer Liaison and Internal Technical Lead (1997-2001)
+Served as the interface between MathWorks and external developers of Mapping Toolbox and Neural Network Toolbox.
+
 - Aligned external development efforts with internal plans, standards, and schedule.
 - Trained external authors on internal tools and monitored the code quality.
 - Served as internal expert for technical support, marketing, consulting, and sales. This included conducting training, attending trade shows, sitting in on conference calls, and [writing marketing collateral](http://www.mathworks.com/company/newsletters/articles/neural-networks-provide-solutions-to-real-world-problems-powerful-new-algorithms-to-explore-classify-and-identify-patterns-in-data.html).
