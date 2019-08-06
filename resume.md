@@ -4,16 +4,15 @@ title: Resume
 permalink: /resume/
 published: true
 ---
-## Matthew J Simoneau
-simoneau@gmail.com\
-617-529-2285
+* simoneau@gmail.com
+* 617-529-2285
 
 ### Toast
 
 #### Staff Software Engineer, Payments (2018-present)
-The Payments team is a small group of engineers tasked with maintaining, scaling, and enhancing our payment processing platform, which authorizes, captures, and settles tens of millions of dollars worth of transactions every day. My focus was on our server architecture, primarily our collection of Java-based microservices.  My contributions include:
+The Payments team is a small group of engineers tasked with maintaining, scaling, and enhancing our payment processing platform, which authorizes, captures, and settles tens of millions of dollars worth of transactions every day. My focus is on our server architecture, especially on our collection of Java-based microservices.  My contributions include:
 
-* Designing and implementing enhancements to allow Toast to accept new types of transactions, including eCommerce, card on file, and contactless EMV. My focus was the communication with Worldpay, and included leading design all the way through certification.
+* Designing and implementing enhancements to allow Toast to accept new types of transactions, including eCommerce, card on file, and contactless EMV. I worked most directly on the interface with Worldpay, from design all the way through certification.
 
 * Architecting a system to sync the results of contract negotiation, including credit card rates, from Salesforce into our internal systems. This included producing several reusable systems which were adopted by other teams for other projects.
 
