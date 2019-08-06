@@ -4,6 +4,8 @@ title: Resume
 permalink: /resume/
 published: true
 ---
+A full-stack software engineer in Boston with more than 20 years of experience, seeking interesting technical challenges and opportunities to grow as a leader.
+
 * simoneau@gmail.com
 * 617-529-2285
 
