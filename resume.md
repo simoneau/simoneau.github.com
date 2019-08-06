@@ -1,13 +1,48 @@
 ---
 layout: page
-title: Experience
+title: Resume
 permalink: /resume/
 published: true
 ---
+## Matthew J Simoneau
+simoneau@gmail.com\
+617-529-2285
 
-### MathWorks (1997-present)
+### Toast
 
-#### Example Manager Team Lead (2009-present)
+#### Staff Software Engineer, Payments (2018-present)
+The Payments team is a small group of engineers tasked with maintaining, scaling, and enhancing our payment processing platform, which authorizes, captures, and settles tens of millions of dollars worth of transactions every day. My focus was on our server architecture, primarily our collection of Java-based microservices.  My contributions include:
+
+* Designing and implementing enhancements to allow Toast to accept new types of transactions, including eCommerce, card on file, and contactless EMV. My focus was the communication with Worldpay, and included leading design all the way through certification.
+
+* Architecting a system to sync the results of contract negotiation, including credit card rates, from Salesforce into our internal systems. This included producing several reusable systems which were adopted by other teams for other projects.
+
+#### Online Ordering Team Lead (2016-2018)
+As engineering team lead for online ordering, my role was to oversee the full software development cycle. Responsibilities included:
+
+* Working with program management to set priorities and schedules.
+* Working with UX to finalize designs.
+* Running weekly iteration meetings and daily scrums.
+* Performing code reviews.
+* Ensuring unit and integration testing.
+* Coordinating weekly deployments.
+* Providing real-time monitoring and performance metrics.
+* Facilitating RCAs.
+
+In addition, I contributed to development, including both front-end interface (Angular) and back-end services (Java).
+
+Accomplishments:
+* 4x increase in B2B customers, 5x increase in revenue, 9% increase in B2C conversions, 0 to hundreds of thousands of saved accounts.
+* Introduced many new features, including saved user accounts (e-mail validation, saved credit cards), client-side credit card encryption, improved checkout flow (fewer steps, better feedback), chain restaurant support.
+* Grew an agile team from 4 to 11 (team lead, 5 engineers, 2 engineer co-ops, 1 PM, 1 QA, 1 UX),
+* Separated our back-end code from a monolith (Play) into individual microservices (Dropwizard).
+* Modernized or JavaScript build (webpack), 
+* Implemented back-end monitoring and alerting (Datadog), front-end metrics (GA), operator help (Appcues), and user session usability tracking (FullStory).
+* Introduced an architecture for cross-service feature flagging
+
+### MathWorks (1997-2016)
+
+#### Example Manager Team Lead (2009-2016)
 Designed and implemented a unified system to manage code examples shipped with MATLAB, included in documentation, and shown on the website. Writers, developers, and technical marketers have used it to author 12,361 examples.
 
 - Created an authoring environment integrated with MATLAB.
