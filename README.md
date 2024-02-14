@@ -1,3 +1,3 @@
 # simoneau.github.com
 
-This is the code and content behind http://www.matthewsim.com.
+This is the code and content behind https://www.matthewsim.com.

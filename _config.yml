@@ -4,7 +4,7 @@ email: simoneau@gmail.com
 description: >
   Matthew Simoneau is a software developer in Boston, MA.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.matthewsim.com" # the base hostname & protocol for your site
+url: "https://www.matthewsim.com" # the base hostname & protocol for your site
 permalink: /weblog/:title/
 
 twitter_username: matthewsim
